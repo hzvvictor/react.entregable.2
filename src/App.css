@@ -1,0 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #124;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+body>#root {
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+  max-width: 640px;
+  margin: auto;
+  background-color: #003;
+  padding: 4em 0;
+  border-radius: 23px;
+  box-shadow: 27px 46px 21px -20px #000;
+
+}
+
+.cardCountry {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cardCountry>section:hover {
+  box-shadow: 0 0 10px 4px #ddf6;
+}
+
+.cardCountry>section {
+  flex-grow: 1;
+  width: 172px;
+  border: 2px solid #d0a8;
+  border-radius: 10px;
+  margin: 0 1em;
+}
+
+.cardCountry>section h3 {
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ddf7;
+}
+
+.clouds .clouds__content {
+  font-size: 2em;
+}
+
+.cardCountry h2 {
+  width: 100%;
+  border-bottom: 2px solid #ddf6;
+  padding-bottom: 1em;
+  margin: 0 0 1em 0;
+}
+
+.temp button {
+  width: 100%;
+  background-color: #a0a;
+  color: white;
+  padding: 10px 0;
+  margin: 10px 0;
+}
